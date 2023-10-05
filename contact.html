@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="=en">
+<head>
+    <link rel="stylesheet" href ="contact.css">
+    <link rel="icon" type="image/x-icon" href="lockpic.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Awareness of cybersecurity</title>
+    <meta charset="utf=8">
+    <meta name="viewpoint" content = "width= device-width, initial-scale= 1">
+
+</head>
+
+
+
+
+
+<body>
+    
+    
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="menubar">
+            <i class="fa fa-bars"></i>
+        </label>
+
+        <label class = "word">Awareness of cybersecurity</label>
+        <ul>
+            <li class="navb"><a href="mainpage.html ">Home</a> </li>
+            <li class="navb"><a href="protect yourself.html ">Protect yourself</a> </li>
+            <li class="navb"><a href="contact.html">Contact</a> </li>
+
+        </ul>  
+
+    </nav>
+  
+
+ 
+    
+    <br>
+    <br>
+    <div id="contactform">
+        <form onsubmit="event.preventDefault(); validateForm()">
+            <br>
+            <h1>Contact us</h1>
+            <br>
+
+            <div class="label1">
+            <label for="name">Name: </label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <small class="error"></small>
+             </div>
+
+             <div class="label1">
+            <label for="email">Email: </label>
+            <input type="text" id="email" placeholder="Enter your email">
+            <small class="error"></small>
+             </div>
+
+             <div class="label1">
+            <label for="message">Message: </label>
+            <textarea id="message" placeholder="Message" row="6"></textarea>
+            <small class="error"></small>
+             </div>
+
+            <div class="submitbutton">
+
+                <input type="submit" value="Send">
+                <p id="Success"></p>
+                
+            </div>
+
+
+
+
+            
+        </form>
+        <br>
+
+
+
+    </div>
+
+    <script src="contact.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

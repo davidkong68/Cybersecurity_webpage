@@ -1,0 +1,213 @@
+
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+nav{
+    background-color: rgba(60, 58, 58, 0.886);
+    height:82px;
+    width: 100%;
+    
+}
+
+label.word{
+    color:white;
+    font-size: 35px; 
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+nav ul{
+    float: right;
+    margin-right: 80px;
+    
+}
+
+
+
+nav ul li a{
+    color:white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 82px;
+    margin:0 5px;
+}
+    
+
+
+.menubar{
+    font-size: 30px;
+    color:white;
+    float:right;
+    line-height: 82px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+
+}
+
+#check{
+    display:none;
+}
+
+@media(max-width:1120px){
+
+    label.word{
+        font-size: 25px ;
+        padding-left: 25px;
+    }
+
+    nav ul li a{
+        font-size: 10x;
+    }
+}
+
+@media(max-width:1018px){
+    .menubar{
+        display:block;
+    }
+    ul{
+        position:fixed;
+        width:100%;
+        height:50vh;
+        background:#2c3e50;
+        top: 40px;
+        left:-100%;
+        text-align: center;
+        
+    }
+
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 40px;
+
+    }
+
+    nav ul li a {
+        font-size: 22px;
+    }
+
+    a:hover{
+        background:none;
+        color:#0082e6;
+    }
+
+    #check:checked ~ ul{
+        left:0;
+    }
+
+
+}
+
+/*form*/
+
+#contactform {
+    width: 100%;
+    height:50%;
+    position:flex; }     /* should put fixed or flex*/
+   
+
+
+form {
+    max-width:650px;
+    height: 50%;
+    width:90%;
+    background:white;
+    margin:17vh auto 0 auto;
+    box-sizing: border-box;
+    background-color: #5d9df1;
+    
+
+}
+
+
+h1{
+    margin:0;
+    text-align: center;
+}
+
+label1 {
+    display:block;
+     margin: 25px 0 ;
+}
+
+
+.label1{
+    padding-left:2em;
+    padding-right:2em;
+    padding-bottom: 15px;
+
+}
+
+
+input, textarea{
+    width:100%;
+    padding:10px;
+    box-sizing: border-box;
+    outline:none;
+    resize: none;
+    border:none;
+    border-bottom:1.6px solid rgba(0, 0, 0, 0.8);
+}
+
+input[type="text"]:focus,textarea:focus{
+    border-bottom:2.5px solid rgb(0, 255, 145) ;
+}
+
+
+.submitbutton{
+    text-align: center;
+
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width:80%;
+    max-width: 100px;
+    cursor: pointer;
+    background: rgb(101, 238, 101);
+    color:black;
+    font-size: 16px;
+    border-radius: 3em;
+
+}
+
+.error{
+
+    color: red;
+}
+
+.error-border{
+    border-bottom: 1px solid red;
+}
+
+#success{
+    color:rgb(94, 252, 3)
+}
+
+
+.word .navb{
+    colour:blue;
+}
+
+*/
